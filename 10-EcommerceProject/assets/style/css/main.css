@@ -456,4 +456,271 @@
     padding: 10px;
     box-sizing: border-box;
   }
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../../font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Palanquin";
+  src: url(../../../assets/font/Palanquin/Palanquin-Regular.ttf);
+}
+.allfooterside {
+  margin: auto;
+  width: 1128px;
+  height: 546px;
+  background-color: #F7F7F9;
+}
+
+footer {
+  background-color: #F7F7F9;
+}
+
+.topfooter {
+  width: 1128px;
+  height: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.footerleft {
+  width: 156px;
+  height: 40px;
+}
+
+.footerinput {
+  width: 504px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px;
+  color: rgba(0, 255, 255, 0);
+  padding: 16px;
+}
+
+.footericon {
+  position: absolute;
+  right: 0px;
+  padding: 12px;
+}
+
+.middleborder {
+  position: absolute;
+  margin-top: 114px;
+}
+
+.bottomfooter {
+  margin: auto;
+  width: 1128px;
+  height: 431px;
+  position: relative;
+}
+
+.bottomfooterfirstp {
+  width: 326px;
+  height: 81px;
+  color: rgba(33, 33, 33, 0.7490196078);
+  font-family: "Poppins";
+}
+
+.btmleftside {
+  margin-top: 56px;
+  width: 326px;
+  height: 81px;
+  font-family: "Poppins";
+}
+
+.bottomsecondicon {
+  margin-top: 43px;
+}
+
+.bottomsecondside {
+  margin-top: 43px;
+  width: 205px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+}
+
+.bottomfootersecondp {
+  padding-left: 10px;
+  color: rgba(33, 33, 33, 0.7490196078);
+  font-family: "Poppins";
+}
+
+.bottomthirdside {
+  margin-top: 24px;
+  width: 147px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+}
+
+.bottomfooterthirdp {
+  color: rgba(33, 33, 33, 0.7490196078);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  padding-left: 11px;
+}
+
+.btnsend {
+  margin-top: 48px;
+  width: 179px;
+  height: 48px;
+  border-radius: 8px;
+  opacity: 0.8px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sendicon {
+  position: absolute;
+  left: 0px;
+  padding-left: 16px;
+}
+
+.footerrightbox {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 578px;
+  height: 265px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firsttext2 {
+  padding-left: 166px;
+}
+
+.firsttext3 {
+  padding-left: 163px;
+}
+
+.middlefooterfirst {
+  width: 147px;
+  height: 265px;
+}
+
+.middlefootersecond {
+  width: 147px;
+  height: 187px;
+}
+
+.middlefooterthird {
+  width: 125px;
+  height: 206px;
+}
+
+.shoulderbag {
+  padding-top: 20px;
+  color: rgba(33, 33, 33, 0.7490196078);
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.backpack {
+  font-family: "Poppins";
+  padding-top: 20px;
+  color: rgba(33, 33, 33, 0.7490196078);
+}
+
+.snobellaleft {
+  font-family: "Palanquin";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.footerbottom {
+  width: 1128px;
+  height: 72px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.allrightbox {
+  width: 206px;
+  height: 27px;
+}
+
+.socialbox {
+  width: 124px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .allfooterside {
+    width: 100%;
+    height: auto;
+  }
+  .topfooter {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footerleft, .footerright {
+    width: 100%;
+    text-align: center;
+  }
+  .footerinput {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .bottomfooter {
+    width: 100%;
+  }
+  .btmleftside {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .btnsend {
+    display: none;
+  }
+  .footerrightbox {
+    left: 0px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .middlefooterfirst,
+  .middlefootersecond,
+  .middlefooterthird {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .bottomfooterfirstp {
+    display: none;
+  }
+  .bottomfootersecondp {
+    display: none;
+  }
+  .bottomfooterthirdp {
+    display: none;
+  }
+  img {
+    display: none;
+  }
+  .footerbottom {
+    width: 992px;
+  }
+  .insta {
+    display: block;
+  }
+  .face {
+    display: block;
+  }
+  .wp {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */
