@@ -618,7 +618,7 @@
 }
 .future .future-head h3,
 .bestseller .future-head h3 {
-  width: 290px;
+  width: 390px !important;
   height: 54px;
   font-family: "Rubik";
   font-weight: 500;
