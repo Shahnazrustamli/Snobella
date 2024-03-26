@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Rubik";
+    src: url("../../font/static/Rubik-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("../../font/Poppins-Medium.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  #main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe2e0;
+    .main-container {
+      display: flex;
+      width: 1205px;
+      height: 584px;
+      .main-image {
+        margin-left: 110px;
+        margin-top: 24px;
+        margin-bottom: 25px;
+      }
+      .main-text {
+        h2 {
+          font-family: "Rubik";
+          width: 415px;
+          height: 68px;
+          font-weight: 700px;
+          font-size: 40px;
+          line-height: 68px;
+          color: #212121;
+        }
+        .off {
+          font-family: "Rubik";
+          margin-top: 99px;
+          color: #df4244;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 40.8px;
+          height: 41px;
+          width: 88px;
+        }
+        .text {
+          width: 453px;
+          height: 81px;
+          font-family: "Poppins";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 27.2px;
+          color: rgba(33, 33, 33, 0.75);
+        }
+        .shopNow {
+          margin-top: 48px;
+          width: 192px;
+          height: 52px;
+          background-color: rgba(32, 99, 99, 1);
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+  
+          a {
+            font-family: "Poppins";
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27.2px;
+            width: 85px;
+            color: rgba(255, 255, 255, 1);
+            height: 27px;
+            text-decoration: none;
+          }
+        }
+        .pointBox {
+          margin-top: 128px;
+          display: flex;
+          gap: 17px;
+          .point {
+            width: 12px;
+            height: 12px;
+            background-color: rgba(32, 99, 99, 0.25);
+            border-radius: 50%;
+          }
+          .right-point {
+            width: 26px;
+            height: 12px;
+            border-radius: 8px;
+            background-color: rgba(223, 66, 68, 1);
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .main-image {
+      display: none;
+    }
+    .main-container {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
