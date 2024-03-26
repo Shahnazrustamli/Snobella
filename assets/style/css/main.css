@@ -11,11 +11,11 @@
 
 @font-face {
   font-family: "Palanquin";
-  src: url("../../../font/Palanquin/Palanquin-Regular.ttf");
+  src: url("../../font/Palanquin/Palanquin-Regular.ttf");
 }
 @font-face {
   font-family: "Poppins";
-  src: url("../../../font/Poppins/Poppins-Regular.ttf");
+  src: url("../../font/Poppins/Poppins-Regular.ttf");
 }
 .navbar {
   background-color: white;
@@ -242,13 +242,11 @@
 }
 @font-face {
   font-family: "Rubik";
-  src: url("../../font/static/Rubik-Medium.ttf");
+  src: url("../../font/Rubik/static/Rubik-Regular.ttf");
 }
 @font-face {
   font-family: "Poppins";
-  src: url("../../font/Poppins-Medium.ttf") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  src: url("../../font/Poppins/Poppins-Regular.ttf");
 }
 #main {
   display: flex;
@@ -344,7 +342,7 @@
 }
 @font-face {
   font-family: "Poppins";
-  src: url(../../../font/Poppins/Poppins-Regular.ttf);
+  src: url("../../font/Poppins-Regular.ttf");
 }
 * {
   margin: 0px;
@@ -593,13 +591,11 @@
 }
 @font-face {
   font-family: "Rubik";
-  src: url("../../fonts/static/Rubik-Medium.ttf");
+  src: url("../../font/Rubik/static/Rubik-Regular.ttf");
 }
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Medium.ttf") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  src: url("../../font/Poppins-Regular.ttf");
 }
 .future,
 .bestseller {
@@ -820,11 +816,11 @@
 
 @font-face {
   font-family: "Poppins";
-  src: url(../../font/Poppins/Poppins-Regular.ttf);
+  src: url("../../font/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: "Palanquin";
-  src: url(../../../assets/font/Palanquin/Palanquin-Regular.ttf);
+  src: url("../../font/Palanquin/Palanquin-Regular.ttf");
 }
 * {
   text-decoration: none !important;
@@ -1092,13 +1088,11 @@ footer {
 }
 @font-face {
   font-family: "Rubik";
-  src: url("../../fonts/static/Rubik-Medium.ttf");
+  src: url("../../../font/Rubik/static/Rubik-Regular.ttf");
 }
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Medium.ttf") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  src: url("../../font/Poppins-Regular.ttf");
 }
 hr {
   margin-bottom: 32px;
@@ -1560,11 +1554,11 @@ hr {
 }
 @font-face {
   font-family: "Rubik";
-  src: url(../../font/Rubik/static/Rubik-Regular.ttf);
+  src: url("../../font/Rubik/static/Rubik-Regular.ttf");
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(../../font/Montserrat/static/Montserrat-Regular.ttf);
+  src: url("../../../font/Montserrat/static/Montserrat-Regular.ttf");
 }
 .mainshoulderbags {
   width: 172px;
@@ -2171,13 +2165,11 @@ hr {
 }
 @font-face {
   font-family: "Rubik";
-  src: url("../../fonts/static/Rubik-Medium.ttf");
+  src: url("../../font/Rubik/static/Rubik-Regular.ttf");
 }
 @font-face {
   font-family: "Poppins";
-  src: url("../../fonts/Poppins-Medium.ttf") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  src: url("../../font/Poppins-Regular.ttf");
 }
 .future,
 .bestseller {
@@ -2413,15 +2405,15 @@ hr {
 
 @font-face {
   font-family: "Poppins";
-  src: url(../../../font/Poppins/Poppins-Regular.ttf);
+  src: url("../../../font/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: "Rubik";
-  src: url(../../../font/Rubik/static/Rubik-Regular.ttf);
+  src: url("../../../font/Rubik/static/Rubik-Regular.ttf");
 }
 @font-face {
   font-family: "Montserrat";
-  src: url(../../../font/Montserrat/static/Montserrat-Regular.ttf);
+  src: url("../../font/Montserrat/static/Montserrat-Regular.ttf");
 }
 .shoppingside {
   height: 1294px;
@@ -2896,11 +2888,11 @@ hr {
 } 
 @font-face {
   font-family: "Poppins";
-  src: url(../../../font/Poppins/Poppins-Regular.ttf);
+  src: url("../../font/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: "Rubik";
-  src: url(../../../font/Rubik/static/Rubik-Regular.ttf);
+  src: url("../../font/Rubik/static/Rubik-Regular.ttf");
 }
 .adrespagecontainer {
   width: 1128px;
