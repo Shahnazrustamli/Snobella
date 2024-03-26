@@ -39,6 +39,7 @@
 .navbar .nav .navtext h1 {
   font-family: "Palanquin";
   font-weight: bold;
+  font-size: 40px;
 }
 .navbar .nav .inputnav {
   position: relative;
