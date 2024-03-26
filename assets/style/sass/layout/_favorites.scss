@@ -1,0 +1,264 @@
+.favorites-section {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  .favourite {
+    width: 1127px;
+    h2 {
+      color: rgba(33, 33, 33, 1);
+      line-height: 68px;
+      font-size: 40px;
+      font-weight: 500;
+      font-family: "Rubik";
+    }
+    .favourite-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 136px;
+      height: 24px;
+      font-family: "Poppins";
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 23.8px;
+      .home {
+        color: rgba(29, 29, 29, 1);
+      }
+      .nav {
+        color: rgba(29, 29, 29, 0.75);
+      }
+    }
+    .favorites-container {
+      margin-top: 32px;
+      display: flex;
+      justify-content: space-between;
+      .myProfile {
+        width: 264px;
+        height: 344px;
+        border-radius: 8px;
+        border: 1px solid rgba(228, 228, 228, 1);
+        margin-right: 97px;
+
+        .menu-item {
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid rgba(228, 228, 228, 1);
+          height: 52px;
+          p {
+            font-family: "Poppins";
+            font-weight: 400;
+            line-height: 23.8;
+            font-size: 14px;
+            color: rgba(33, 33, 33, 1);
+          }
+          img {
+            margin-left: 24px;
+            margin-right: 8px;
+          }
+        }
+        .end {
+          border: none;
+        }
+        .profile {
+          width: 100%;
+          height: 84px;
+          border-bottom: 1px solid rgba(228, 228, 228, 1);
+          display: flex;
+          img {
+            width: 50px;
+            margin: 17px 20px 17px 14px;
+          }
+          h4 {
+            font-family: "Rubik";
+            color: rgba(33, 33, 33, 1);
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 16px;
+            height: 27px;
+          }
+          p {
+            font-family: "Poppins";
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 23.8px;
+            height: 24px;
+          }
+        }
+      }
+      .productCards {
+        display: flex;
+        .card {
+          margin-right: 47px;
+        }
+        .productCard {
+          width: 360px;
+          height: 508px;
+          border-radius: 8px;
+          background-color: rgba(249, 249, 249, 1);
+          position: relative;
+          margin-bottom: 48px;
+
+          .new-product {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            width: 79px;
+            height: 32px;
+            border-radius: 8px;
+            background-color: rgba(67, 209, 103, 1);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              font-family: "Poppins";
+              font-size: 16px;
+              line-height: 27.2px;
+              font-weight: 500;
+              color: rgba(255, 255, 255, 1);
+              width: 35px;
+              height: 27px;
+            }
+          }
+          .discount {
+            background-color: rgba(223, 66, 68, 1);
+          }
+          .heart {
+            height: 22px;
+            width: 22px;
+            position: absolute;
+            right: 16px;
+            top: 16px;
+          }
+          button {
+            width: 312px;
+            height: 48px;
+            border-radius: 8px;
+            border: 1px solid rgba(33, 33, 33, 1);
+            margin: 0 24px;
+            background-color: rgba(249, 249, 249, 1);
+            text-align: center;
+            font-family: "Poppins";
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 27.2px;
+            color: rgba(33, 33, 33, 1);
+          }
+          .bag {
+            width: 218px;
+            height: 243px;
+            margin: 11px 71px 16px 71px;
+          }
+          .bag2 {
+            width: 219px;
+            height: 219px;
+            margin: 27px 75px 24px 66px;
+          }
+
+          .starBox {
+            margin: 0px 0px 16px 24px;
+          }
+
+          .description {
+            margin: 0px 34px 0px 24px;
+            font-size: 16px;
+            font-family: "Rubik";
+            font-weight: 400;
+            line-height: 27.2px;
+            width: 302px;
+            height: 54px;
+            color: rgba(0, 0, 0, 1);
+          }
+          .priceBox {
+            display: flex;
+            align-items: center;
+            width: 250px;
+            margin: 16px 0 24px 24px;
+            gap: 18px;
+            span {
+              width: 73px;
+              height: 34px;
+              font-family: "Poppins";
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 34px;
+              color: rgba(247, 81, 69, 1);
+            }
+            .price {
+              width: 120px;
+              height: 27px;
+              font-family: "Poppins";
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 27.2px;
+              color: rgba(54, 54, 54, 0.75);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .future,
+  .bestseller {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 24px;
+    .featured-container {
+      gap: 30px;
+    }
+    .future-head {
+      width: 720px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+
+      h3 {
+        font-size: 24px;
+      }
+
+      a {
+        font-size: 16px;
+      }
+    }
+    .featured-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      width: 90%;
+
+      .none {
+        display: none;
+      }
+    }
+  }
+  .services {
+    width: 992px !important;
+    .service {
+      width: 240px !important;
+    }
+  }
+  .favorites-section {
+    padding-left: 90px;
+    .favorites-container {
+      display: block !important;
+
+      width: 899px;
+
+      .myProfile {
+        // margin-left: 90px;
+        margin-bottom: 30px;
+      }
+      .productCards {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
