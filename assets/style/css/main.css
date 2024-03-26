@@ -1988,7 +1988,6 @@ hr {
   gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
-  angle: 0 deg;
   border: 1px solid rgba(39, 49, 66, 0.1490196078);
 }
 
@@ -2000,7 +1999,6 @@ hr {
   gap: 0px;
   border: 4px 0px 0px 0px;
   opacity: 0px;
-  angle: 0 deg;
   border: 4px solid #DF4244;
   margin-left: 248px;
 }
