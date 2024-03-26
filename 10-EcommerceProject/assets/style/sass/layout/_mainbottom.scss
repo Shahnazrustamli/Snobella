@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../../../font/Poppins/Poppins-Regular.ttf);
+  }
+
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+
+
+.headerbottombackground{
+
+height: 144px;
+
+background-color:#F7F7F7;
+
+}
+
+.headerbottomcontainer{
+width: 1128px;
+height: 144px;
+margin: auto;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.iconboxside{
+
+width: 1127px;
+height: 48px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+p{
+    font-family: "Poppins";
+font-size: 16px;
+font-weight: 500;
+line-height: 27.2px;
+
+
+}
+
+}
+
+.boxicontext{
+
+width: 222px;
+height: 48px;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+.boxicontextlock{
+    width: 266px;
+    height: 48px;
+    
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.boxicontextdonotcome{
+    width: 203px;
+    height: 48px;
+   
+    display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+.boxicontextcredit{
+    width: 295px;
+    height: 48px;
+    
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .headerbottombackground {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .headerbottomcontainer {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: auto;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .iconboxside {
+      width: 100%;
+      max-width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .boxicontext {
+      width: 45%;
+      height: auto;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    .boxicontextdonotcome,
+    .boxicontextlock,
+    .boxicontextcredit {
+      width: 45%; 
+      height: auto;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  }
+  
