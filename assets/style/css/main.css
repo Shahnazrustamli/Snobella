@@ -534,12 +534,8 @@
   right: -22px;
   top: 61px;
 }
-.products .container .item4 .slider-icon-end img {
-  width: 32px;
-  height: 32px;
-}
 .products .container .item4 .image {
-  z-index: 0;
+  z-index: 1;
   overflow: hidden;
   position: absolute;
   width: 167px;

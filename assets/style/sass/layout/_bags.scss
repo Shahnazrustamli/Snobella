@@ -75,13 +75,13 @@
           justify-content: center;
           right: -22px;
           top: 61px;
-          img{
-            width: 32px;
-            height: 32px;
-          }
+          // img{
+          //   width: 3px;
+          //   height: 32px;
+          // }
         }
         .image {
-          z-index: 0;
+          z-index: 1;
           overflow: hidden;
           position: absolute;
           width: 167px;
